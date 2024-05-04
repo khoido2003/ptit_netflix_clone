@@ -3,10 +3,10 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      backgroundImage: {
-        'hero': "url('/public/hero.jpg')",
-      }
+      colors: {
+        primary: "#E50914",
+      },
     },
   },
-  plugins: [],
-}
+  plugins: ["prettier-plugin-tailwindcss"],
+};
